@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Laobe SENE, développeuse Web et Mobile. Découvrez ses projets, compétences et moyens de contact.">
+  <meta name="theme-color" content="#10091f">
+    <link rel="icon" type="image/png" href="assets/ls.png">
+  <title>Laobe SENE — Développeuse Web & Mobile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-glow glow-one" aria-hidden="true"></div>
+  <div class="page-glow glow-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Laobe SENE, accueil"><span class="brand-mark">L<span>.</span></span><span>LAOBE <b>SENE</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav"><span></span><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav" aria-label="Navigation principale">
+      <a href="#accueil" class="nav-link active">Accueil</a>
+      <a href="#apropos" class="nav-link">À propos</a>
+      <a href="#projets" class="nav-link">Projets</a>
+      <a href="#competences" class="nav-link">Compétences</a>
+      <a href="#documents" class="nav-link">Documents</a>
+      <a href="#contact" class="nav-cta">Me contacter <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="accueil">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> Portfolio · Développement logiciel</div>
+        <p class="hero-greeting">Bonjour, je suis</p>
+        <h1>Laobe <span class="gradient-text">SENE.</span></h1>
+        <h2>Développeuse <span class="typing-accent">Web &amp; Mobile</span></h2>
+        <p class="hero-description">Je conçois des solutions numériques utiles, avec un intérêt particulier pour le développement d’applications et la création d’expériences simples à utiliser.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projets">Découvrir mes projets <span aria-hidden="true">↘</span></a>
+          <a class="button button-secondary" href="#contact">Me contacter</a>
+        </div>
+        <div class="hero-meta"><span class="meta-line"></span><span>Informatique de gestion</span><span class="meta-separator">/</span><span>Web · Mobile · Logiciel</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Illustration décorative de code informatique">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="float-chip chip-java"><span class="chip-symbol">☕</span><span>Java</span></div>
+        <div class="float-chip chip-flutter"><span class="flutter-mark">◈</span><span>Flutter</span></div>
+        <div class="float-chip chip-web"><span>&lt;/&gt;</span><span>Web</span></div>
+        <div class="code-window">
+          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.java</span><span class="window-lock">⌘</span></div>
+          <div class="code-body">
+            <div><span class="line-no">01</span><span class="code-purple">public class</span> <span class="code-cyan">Developer</span> {</div>
+            <div><span class="line-no">02</span>&nbsp;&nbsp;<span class="code-purple">private</span> String passion =</div>
+            <div><span class="line-no">03</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Créer des solutions"</span>;</div>
+            <div><span class="line-no">04</span>&nbsp;&nbsp;<span class="code-purple">void</span> <span class="code-yellow">buildFuture</span>() {</div>
+            <div><span class="line-no">05</span>&nbsp;&nbsp;&nbsp;&nbsp;learn();</div>
+            <div><span class="line-no">06</span>&nbsp;&nbsp;&nbsp;&nbsp;create();</div>
+            <div><span class="line-no">07</span>&nbsp;&nbsp;&nbsp;&nbsp;improve();</div>
+            <div><span class="line-no">08</span>&nbsp;&nbsp;}</div>
+            <div><span class="line-no">09</span>}</div>
+          </div>
+          <div class="code-footer"><span><i class="status-dot"></i> Prête à apprendre et à construire</span><span>UTF-8</span></div>
+        </div>
+        <div class="hero-sticker"><span class="sticker-star">✳</span><span>Créer.<br>Apprendre.<br><b>Innover.</b></span></div>
+      </div>
+      <a class="scroll-cue" href="#apropos"><span class="scroll-mouse"></span> Faire défiler</a>
+    </section>
+
+    <section class="section-wrap about-section" id="apropos">
+      <div class="section-heading reveal"><p class="section-kicker">QUI SUIS-JE ?</p><h2>Un profil curieux,<br><span class="gradient-text">orienté solutions.</span></h2><p>Mon parcours associe informatique de gestion, conception d’applications et envie de transformer des besoins concrets en outils numériques.</p></div>
+      <div class="about-grid">
+        <button class="info-card reveal" data-info="formation">
+          <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5 12 5l9 4.5-9 4.5L3 9.5Z"/><path d="M6.5 11.3v5.1c3.4 2.6 7.6 2.6 11 0v-5.1M21 9.5v6"/></svg></span>
+          <span class="info-card-title">Ma formation</span><span class="info-card-copy">Informatique de gestion et apprentissage pratique.</span><span class="card-more">En savoir plus <b>↗</b></span>
+        </button>
+        <button class="info-card reveal" data-info="domaine">
+          <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="m8 20 4-3 4 3M8 9l-2 3 2 2m8-5 2 3-2 2m-3-6-2 6"/></svg></span>
+          <span class="info-card-title">Mon domaine</span><span class="info-card-copy">Développement mobile, web et logique applicative.</span><span class="card-more">En savoir plus <b>↗</b></span>
+        </button>
+        <button class="info-card reveal" data-info="objectif">
+          <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
+          <span class="info-card-title">Mon objectif</span><span class="info-card-copy">Progresser, collaborer et créer des projets utiles.</span><span class="card-more">En savoir plus <b>↗</b></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section-wrap projects-section" id="projets">
+      <div class="section-heading section-heading-row reveal"><div><p class="section-kicker">CE QUE J’AI RÉALISÉ</p><h2>Des idées transformées<br><span class="gradient-text">en projets.</span></h2></div><p>Explore les projets ci-dessous pour découvrir leur objectif, leurs technologies et les démonstrations disponibles.</p></div>
+      <div class="project-filters reveal" role="group" aria-label="Filtrer les projets">
+        <button class="filter-button active" data-filter="all">Tous les projets <span>7</span></button>
+        <button class="filter-button" data-filter="mobile">Mobile</button>
+        <button class="filter-button" data-filter="web">Web</button>
+        <button class="filter-button" data-filter="java">Java</button>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+        <button class="project-card project-featured reveal" data-project="gesticom" data-categories="mobile web">
+          <span class="project-art art-gesticom"><span class="art-window"><span class="mini-top"><i></i><i></i><i></i></span><span class="mini-sidebar"></span><span class="mini-content"><i></i><i></i><i></i><b></b></span></span><span class="art-phone"><i></i><b></b><i></i><i></i><em></em></span><span class="art-orb"></span><span class="art-caption">GESTICOM</span></span>
+          <span class="project-info"><span class="project-type">WEB &amp; MOBILE · PROJET ACADÉMIQUE</span><span class="project-title">GESTICOM</span><span class="project-desc">Une plateforme hybride de gestion pour les PME commerciales.</span><span class="tag-list"><i>Flutter</i><i>PHP</i><i>MySQL</i></span><span class="project-open">Découvrir le projet <b>↗</b></span></span>
+        </button>
+        <button class="project-card reveal" data-project="couture" data-categories="mobile java">
+          <span class="project-art art-couture"><span class="art-phone phone-large"><i></i><b>✂</b><i></i><i></i><i></i></span><span class="art-orb"></span><span class="art-caption">COUTURE</span></span>
+          <span class="project-info"><span class="project-type">APPLICATION ANDROID</span><span class="project-title">Application de couture</span><span class="project-desc">Une application mobile développée en Java.</span><span class="tag-list"><i>Java</i><i>Android Studio</i></span><span class="project-open">Découvrir le projet <b>↗</b></span></span>
+        </button>
+        <button class="project-card reveal" data-project="moutons" data-categories="mobile java">
+          <span class="project-art art-moutons"><span class="sheep-shape">◉</span><span class="art-orb"></span><span class="art-caption">VENTE &amp; ÉLEVAGE</span></span>
+          <span class="project-info"><span class="project-type">APPLICATION ANDROID</span><span class="project-title">Vente de moutons</span><span class="project-desc">Une application mobile conçue autour de la vente de moutons.</span><span class="tag-list"><i>Java</i><i>Android Studio</i></span><span class="project-open">Découvrir le projet <b>↗</b></span></span>
+        </button>
+        <button class="project-card reveal" data-project="scolaire" data-categories="mobile java">
+          <span class="project-art art-school"><span class="school-building"><i></i><i></i><i></i><b></b></span><span class="art-orb"></span><span class="art-caption">ÉDUCATION</span></span>
+          <span class="project-info"><span class="project-type">APPLICATION ANDROID</span><span class="project-title">Gestion scolaire</span><span class="project-desc">Un projet mobile dédié à la gestion scolaire.</span><span class="tag-list"><i>Java</i><i>Android Studio</i></span><span class="project-open">Découvrir le projet <b>↗</b></span></span>
+        </button>
+        <button class="project-card reveal" data-project="depenses" data-categories="mobile java">
+          <span class="project-art art-expenses"><span class="expense-chart"><i></i><i></i><i></i><i></i><i></i><b>+</b></span><span class="art-orb"></span><span class="art-caption">BUDGET</span></span>
+          <span class="project-info"><span class="project-type">APPLICATION ANDROID</span><span class="project-title">Suivi des dépenses</span><span class="project-desc">Une application mobile autour du suivi des dépenses.</span><span class="tag-list"><i>Java</i><i>Android Studio</i></span><span class="project-open">Découvrir le projet <b>↗</b></span></span>
+        </button>
+        <button class="project-card reveal" data-project="hopital" data-categories="java">
+          <span class="project-art art-hospital"><span class="hospital-cross">+</span><span class="hospital-card"><i></i><i></i><i></i><b></b></span><span class="art-orb"></span><span class="art-caption">SANTÉ</span></span>
+          <span class="project-info"><span class="project-type">PROGRAMMATION ORIENTÉE OBJET</span><span class="project-title">Gestion d’un centre de santé</span><span class="project-desc">Un projet Java autour de la gestion d’un établissement de santé.</span><span class="tag-list"><i>Java</i><i>POO</i></span><span class="project-open">Découvrir le projet <b>↗</b></span></span>
+        </button>
+        <button class="project-card reveal" data-project="wordpress" data-categories="web">
+          <span class="project-art art-wordpress"><span class="web-browser"><span class="browser-bar"><i></i><i></i><i></i></span><b>IT.</b><i></i><i></i><em></em></span><span class="art-orb"></span><span class="art-caption">SITE VITRINE</span></span>
+          <span class="project-info"><span class="project-type">CRÉATION WEB</span><span class="project-title">Site vitrine informatique</span><span class="project-desc">Un site vitrine conçu avec WordPress.</span><span class="tag-list"><i>WordPress</i></span><span class="project-open">Découvrir le projet <b>↗</b></span></span>
+        </button>
+      </div>
+      <p class="section-footnote">Les illustrations de cette version sont des visuels graphiques temporaires. Elles ne représentent pas des captures authentiques des applications.</p>
+    </section>
+
+    <section class="section-wrap skills-section" id="competences">
+      <div class="section-heading reveal"><p class="section-kicker">MES OUTILS</p><h2>Les technologies avec<br><span class="gradient-text">lesquelles je construis.</span></h2><p>Clique sur une compétence pour consulter sa place dans mon parcours et les projets associés.</p></div>
+      <div class="skills-grid">
+        <button class="skill-card reveal" data-skill="java"><span class="skill-logo logo-java">☕</span><span class="skill-name">Java</span><span class="skill-category">Applications &amp; POO</span><span class="skill-arrow">↗</span></button>
+        <button class="skill-card reveal" data-skill="android"><span class="skill-logo logo-android">◈</span><span class="skill-name">Android Studio</span><span class="skill-category">Développement mobile</span><span class="skill-arrow">↗</span></button>
+        <button class="skill-card reveal" data-skill="flutter"><span class="skill-logo logo-flutter">◆</span><span class="skill-name">Flutter</span><span class="skill-category">Applications multiplateformes</span><span class="skill-arrow">↗</span></button>
+        <button class="skill-card reveal" data-skill="web"><span class="skill-logo logo-web">&lt;/&gt;</span><span class="skill-name">HTML · CSS · JavaScript</span><span class="skill-category">Interfaces web</span><span class="skill-arrow">↗</span></button>
+        <button class="skill-card reveal" data-skill="php"><span class="skill-logo logo-php">PHP</span><span class="skill-name">PHP &amp; MySQL</span><span class="skill-category">Web &amp; données</span><span class="skill-arrow">↗</span></button>
+        <button class="skill-card reveal" data-skill="wordpress"><span class="skill-logo logo-wordpress">W</span><span class="skill-name">WordPress</span><span class="skill-category">Création de sites</span><span class="skill-arrow">↗</span></button>
+        <button class="skill-card reveal" data-skill="git"><span class="skill-logo logo-git">⑂</span><span class="skill-name">Git &amp; GitHub</span><span class="skill-category">À pratiquer / publier</span><span class="skill-arrow">↗</span></button>
+      </div>
+      <div class="skills-note"><span>✦</span> Les fiches décrivent les usages associés aux projets. Elles ne représentent pas un classement de niveau chiffré.</div>
+    </section>
+
+    <section class="section-wrap documents-section" id="documents">
+      <div class="documents-panel reveal">
+        <div class="documents-copy"><p class="section-kicker">ALLONS PLUS LOIN</p><h2>Mon parcours en<br><span class="gradient-text">quelques pages.</span></h2><p>Retrouve mon CV et ma lettre de motivation pour découvrir mon parcours et mes objectifs.</p><div class="documents-actions"><a class="button button-primary" href="documents/LICENCE 3 CV_LAOBE SENE.docx" download>Télécharger mon CV <span aria-hidden="true">↓</span></a><a class="button button-secondary" href="documents/lettres-motivation/lettre_de_motivation.pdf.docx" target="_blank" rel="noopener">Lettres de motivation <span aria-hidden="true">↗</span></a></div><p class="document-hint">Découvrez mon parcours et mes réalisations à travers mon CV, et consultez mes lettres de motivation pour en savoir plus sur mes objectifs professionnels.<code></p></div>
+        <div class="document-visual"><div class="paper paper-back"></div><div class="paper paper-front"><div class="paper-avatar">LS</div><i class="paper-line wide"></i><i class="paper-line medium"></i><i class="paper-divider"></i><i class="paper-line wide"></i><i class="paper-line short"></i><i class="paper-line medium"></i><i class="paper-divider"></i><i class="paper-line wide"></i><i class="paper-line medium"></i><i class="paper-line short"></i><span class="paper-label">CURRICULUM VITAE</span></div><div class="doc-badge">PDF <span>↓</span></div></div>
+      </div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <div class="section-heading reveal"><p class="section-kicker">ON ÉCHANGE ?</p><h2>Une opportunité ou<br><span class="gradient-text">un projet en tête ?</span></h2><p>Pour un poste, une collaboration, une candidature ou un projet freelance, tu peux me contacter directement.</p></div>
+      <div class="contact-grid">
+        <div class="contact-details reveal">
+          <a class="contact-link" href="mailto:Laobesene28@gmail.com"><span class="contact-icon">✉</span><span><small>ÉCRIS-MOI</small><b>Laobesene28@gmail.com</b></span><span class="contact-arrow">↗</span></a>
+          <a class="contact-link" href="tel:+221774800523"><span class="contact-icon">⌕</span><span><small>TÉLÉPHONE</small><b>+221 77 480 05 23</b></span><span class="contact-arrow">↗</span></a>
+          <a class="contact-link" href="https://wa.me/221774800523" target="_blank" rel="noopener"><span class="contact-icon">◉</span><span><small>WHATSAPP</small><b>Discutons directement</b></span><span class="contact-arrow">↗</span></a>
+          <a class="contact-link" href="https://github.com/" target="_blank" rel="noopener"><span class="contact-icon">⌘</span><span><small>GITHUB</small><b>Mon profil sera ajouté ici</b></span><span class="contact-arrow">↗</span></a>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-heading"><h3>Envoyer un message</h3><p>Le formulaire prépare un e-mail dans ton application de messagerie.</p></div>
+          <label for="senderName">Ton nom</label><input id="senderName" name="name" type="text" placeholder="Ex. : Aminata" required>
+          <label for="senderEmail">Ton e-mail</label><input id="senderEmail" name="email" type="email" placeholder="nom@exemple.com" required>
+          <label for="senderMessage">Ton message</label><textarea id="senderMessage" name="message" rows="4" placeholder="Parlons de ton projet ou de l'opportunité..." required></textarea>
+          <button class="button button-primary form-submit" type="submit">Préparer l'e-mail <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="formNote" role="status">Aucun message n'est envoyé sans ton action dans ta messagerie.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#accueil"><span class="brand-mark">L<span>.</span></span><span>LAOBE <b>SENE</b></span></a><p>Conçu avec curiosité, patience et une touche de violet.</p><span>© <span id="currentYear"></span> Laobe SENE</span></footer>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <section class="detail-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Fermer la fenêtre">×</button>
+      <p class="section-kicker" id="modalKicker">DÉTAILS</p><h2 id="modalTitle">Détails</h2><div class="modal-content" id="modalContent"></div>
+    </section>
+  </div>
+</body>
+</html>
